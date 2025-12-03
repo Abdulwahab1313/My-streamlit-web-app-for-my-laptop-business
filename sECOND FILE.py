@@ -3,10 +3,10 @@ st.title("Welcome to Aws Gadget")
 tab1,tab2,tab3,tabs4= st.tabs(["Hp","Dell","Lenovo","Samsung"])
 link = st.markdown("[clikck link to chat me up](http://127.0.0.1:8501)")
 with tab1:
-    img = st.image("Hp10.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N400000")
+    img = st.image("IMG-20251203-WA0009.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N400000")
     st.markdown("[clikck link to chat me up](http://127.0.0.1:8501)")
     with st.expander("click for more photos and details"):
-        lists=["Hp11.jpg","Hp12.jpg"]
+        lists=["IMG-20251203-WA0009.jpg","IMG-20251203-WA0009.jpg"]
         sl1 = st.slider("increase image1 size", 100, 300)
         st.image(lists, width=sl1)
         st.write(sl1)
@@ -28,4 +28,5 @@ with tab2:
         sl3 = st.slider("increase image3 size", 100, 300)
         st.image(lists, width=sl3)
         st.write(sl3)
+
 
