@@ -21,13 +21,50 @@ with tab1:
 
 
 with tab5:
-    img2 = st.image("acer1.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N40000")
+    img2 = st.image("acer11.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N40000")
     st.markdown("[clikck link to chat me up](wa.me/+234 806 679 9167)")
     with st.expander("click for more photos and details"):
-        lists=["acer2.jpg","acer3.jpg"]
+        lists=["acer12.jpg","acer13.jpg","acer14"]
         sl3 = st.slider("increase image3 size", 100, 300)
         st.image(lists, width=sl3)
         st.write(sl3)
+
+with tab3:
+    img2 = st.image("acer11.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N40000")
+    st.markdown("[clikck link to chat me up](wa.me/+234 806 679 9167)")
+    with st.expander("click for more photos and details"):
+        lists=["acer12.jpg","acer13.jpg","acer14"]
+        sl3 = st.slider("increase image3 size", 100, 300)
+        st.image(lists, width=sl3)
+        st.write(sl3)
+
+with tab5:
+    img2 = st.image("acer11.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N40000")
+    st.markdown("[clikck link to chat me up](wa.me/+234 806 679 9167)")
+    with st.expander("click for more photos and details"):
+        lists=["acer12.jpg","acer13.jpg","acer14"]
+        sl3 = st.slider("increase image3 size", 100, 300)
+        st.image(lists, width=sl3)
+        st.write(sl3)
+
+with tab5:
+    img2 = st.image("acer11.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N40000")
+    st.markdown("[clikck link to chat me up](wa.me/+234 806 679 9167)")
+    with st.expander("click for more photos and details"):
+        lists=["acer12.jpg","acer13.jpg","acer14"]
+        sl3 = st.slider("increase image3 size", 100, 300)
+        st.image(lists, width=sl3)
+        st.write(sl3)
+
+with tab5:
+    img2 = st.image("acer11.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N40000")
+    st.markdown("[clikck link to chat me up](wa.me/+234 806 679 9167)")
+    with st.expander("click for more photos and details"):
+        lists=["acer12.jpg","acer13.jpg","acer14"]
+        sl3 = st.slider("increase image3 size", 100, 300)
+        st.image(lists, width=sl3)
+        st.write(sl3)
+
 
 
 
