@@ -6,7 +6,7 @@ with tab1:
     img = st.image("IMG-20251203-WA0009.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N400000")
     st.markdown("[clikck link to chat me up](wa.me/+234 806 679 9167)")
     with st.expander("click for more photos and details"):
-        lists=["Hp1.jpg","Hp2.jpg", "Hp3.jpg"]
+        lists=["Hp11.jpg","Hp12.jpg", "Hp13.jpg"]
         sl1 = st.slider("increase image1 size", 100, 300)
         st.image(lists, width=sl1)
         st.write(sl1)
@@ -28,6 +28,7 @@ with tab5:
         sl3 = st.slider("increase image3 size", 100, 300)
         st.image(lists, width=sl3)
         st.write(sl3)
+
 
 
 
