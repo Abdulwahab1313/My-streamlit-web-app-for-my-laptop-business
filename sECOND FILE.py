@@ -1,32 +1,33 @@
 import streamlit as st
 st.title("Welcome to Aws Gadget")
-tab1,tab2,tab3,tabs4= st.tabs(["Hp","Dell","Lenovo","Samsung"])
-link = st.markdown("[clikck link to chat me up](http://127.0.0.1:8501)")
+tab1,tab2,tab3,tabs4,tab5= st.tabs(["Hp","Dell","Lenovo","Samsung","acer","Random mini pc" ])
+link = st.markdown("[clikck link to chat me up](wa.me/+234 806 679 9167)")
 with tab1:
     img = st.image("IMG-20251203-WA0009.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N400000")
-    st.markdown("[clikck link to chat me up](http://127.0.0.1:8501)")
+    st.markdown("[clikck link to chat me up](wa.me/+234 806 679 9167)")
     with st.expander("click for more photos and details"):
-        lists=["IMG-20251203-WA0009.jpg","IMG-20251203-WA0009.jpg"]
+        lists=["Hp1.jpg","Hp2.jpg", "Hp3.jpg"]
         sl1 = st.slider("increase image1 size", 100, 300)
         st.image(lists, width=sl1)
         st.write(sl1)
 
-    img1 = st.image("Hp21.jpg", width=200,caption="hp Elitebook g420 touchscreen.keyboardlight,512ssd,8gbram,N330000")
-    st.markdown("[clikck link to chat me up](http://127.0.0.1:8501)")
+    img1 = st.image("Hp14.jpg", width=200,caption="hp Elitebook g420 touchscreen.keyboardlight,512ssd,8gbram,N330000")
+    st.markdown("[clikck link to chat me up](wa.me/+234 806 679 9167)")
     with st.expander("click for more photos"):
-        lists = ["Hp22.jpg", "Hp23.jpg"]
+        lists = ["Hp15.jpg", "Hp16.jpg","Hp17.jpg","Hp18.jpg"]
         sl2= st.slider("increase image2 size",100,300)
         st.image(lists, width=sl2)
         st.write(sl2)
 
 
-with tab2:
-    img2 = st.image("Dell1.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N40000")
-    st.markdown("[clikck link to chat me up](http://127.0.0.1:8501)")
+with tab5:
+    img2 = st.image("acer1.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N40000")
+    st.markdown("[clikck link to chat me up](wa.me/+234 806 679 9167)")
     with st.expander("click for more photos and details"):
-        lists=["Dell2.jpg","Dell3.jpg"]
+        lists=["acer2.jpg","acer3.jpg"]
         sl3 = st.slider("increase image3 size", 100, 300)
         st.image(lists, width=sl3)
         st.write(sl3)
+
 
 
