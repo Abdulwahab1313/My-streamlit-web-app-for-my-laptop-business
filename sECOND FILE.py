@@ -12,7 +12,7 @@ with tab1:
         st.write(sl1)
 
     img1 = st.image("Hp14.jpg", width=200,caption="hp Elitebook g420 touchscreen.keyboardlight,512ssd,8gbram,N330000")
-    st.write(link")
+    st.write(link)
     with st.expander("click for more photos"):
         lists = ["Hp15.jpg", "Hp16.jpg","Hp17.jpg","Hp18.jpg"]
         sl2= st.slider("increase image2 size",100,300)
@@ -64,6 +64,7 @@ with tab5:
         sl3 = st.slider("increase image3 size", 100, 300)
         st.image(lists, width=sl3)
         st.write(sl3)
+
 
 
 
