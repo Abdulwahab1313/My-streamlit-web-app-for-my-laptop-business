@@ -34,7 +34,7 @@ with tab3:
     st.markdown(link)
     with st.expander("click for more photos and details"):
         lists=["acer12.jpg","acer13.jpg","acer14.jpg"]
-        sl3 = st.slider("increase image3 size", 100, 300)
+        sl3 = st.slider("increase image4 size", 100, 300)
         st.image(lists, width=sl3)
         st.write(sl3)
 
@@ -43,7 +43,7 @@ with tab5:
     st.markdown(link)
     with st.expander("click for more photos and details"):
         lists=["acer12.jpg","acer13.jpg","acer14"]
-        sl3 = st.slider("increase image3 size", 100, 300)
+        sl3 = st.slider("increase image5 size", 100, 300)
         st.image(lists, width=sl3)
         st.write(sl3)
 
@@ -52,7 +52,7 @@ with tab5:
     st.markdown(link)
     with st.expander("click for more photos and details"):
         lists=["acer12.jpg","acer13.jpg","acer14.jpg"]
-        sl3 = st.slider("increase image3 size", 100, 300)
+        sl3 = st.slider("increase image6 size", 100, 300)
         st.image(lists, width=sl3)
         st.write(sl3)
 
@@ -61,7 +61,7 @@ with tab6:
     st.markdown(link)
     with st.expander("click for more photos and details"):
         lists=["acer12.jpg","acer13.jpg","acer14.jpg"]
-        sl3 = st.slider("increase image3 size", 100, 300)
+        sl3 = st.slider("increase image7 size", 100, 300)
         st.image(lists, width=sl3)
         st.write(sl3)
 
