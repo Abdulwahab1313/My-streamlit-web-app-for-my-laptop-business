@@ -51,12 +51,12 @@ with tab5:
     img2 = st.image("acer11.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N40000")
     st.markdown(link)
     with st.expander("click for more photos and details"):
-        lists=["acer12.jpg","acer13.jpg","acer14"]
+        lists=["acer12.jpg","acer13.jpg","acer14. jpg"]
         sl3 = st.slider("increase image3 size", 100, 300)
         st.image(lists, width=sl3)
         st.write(sl3)
 
-with tab5:
+with tab6:
     img2 = st.image("acer11.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N40000")
     st.markdown(link)
     with st.expander("click for more photos and details"):
