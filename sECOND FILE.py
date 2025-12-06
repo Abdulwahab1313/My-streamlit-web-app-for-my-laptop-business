@@ -34,7 +34,7 @@ with tab3:
     img2 = st.image("https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Lenovo11.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N180000")
     st.markdown(link)
     with st.expander("click for more photos and details"):
-    lists=["https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Lenovo12.jpg","https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Lenovo13.jpg"]
+        lists=["https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Lenovo12.jpg","https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Lenovo13.jpg"]
         sl3 = st.slider("increase image4 size", 100, 300)
         st.image(lists, width=sl3)
         st.write(sl3)
@@ -46,7 +46,6 @@ with tab2:
         sl3 = st.slider("increase image4 size", 100, 300)
         st.image(lists, width=sl3)
         st.write(sl3)
-
 
 
 with tab5:
@@ -75,6 +74,7 @@ with tab6:
         sl3 = st.slider("increase image7 size", 100, 300)
         st.image(lists, width=sl3)
         st.write(sl3)
+
 
 
 
