@@ -3,10 +3,10 @@ st.title("Welcome to Aws Gadget")
 tab1,tab2,tab3,tabs4,tab5,tab6= st.tabs(["Hp","Dell","Lenovo","Samsung","acer","Random mini pc" ])
 link ="[clikck link to chat me up](https://wa.me/2348066799167)"
 with tab1:
-    img = st.image("https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Hp13.jpg",width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N400000")
+    img = st.image("https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Hp10.jpg",width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N400000")
     st.markdown(link)
     with st.expander("click for more photos and details"):
-        lists=["Hp11.jpg","Hp12.jpg", "Hp13.jpg"]
+        lists=[https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Hp11.jpg",https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Hp12.jpg,https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Hp13.jpg"]
         sl1 = st.slider("increase image1 size", 100, 300)
         st.image(lists, width=sl1)
         st.write(sl1)
