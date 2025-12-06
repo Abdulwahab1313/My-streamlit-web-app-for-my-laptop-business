@@ -60,7 +60,7 @@ with tab6:
     img2 = st.image("acer11.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N40000")
     st.markdown(link)
     with st.expander("click for more photos and details"):
-        lists=["Random mini lenovo pc1.jpg", "Random mini lenovo pc2.jpg", "Random mini lenovo pc3.jpg", "Random mini lenovo pc4.jpg", "Random mini lenovo pc5.jpg" ]
+        lists=["Random mini lenovo pc 1.jpg", "Random mini lenovo pc 2.jpg", "Random mini lenovo pc 3.jpg", "Random mini lenovo pc 4.jpg", "Random mini lenovo pc 5.jpg" ]
         sl3 = st.slider("increase image7 size", 100, 300)
         st.image(lists, width=sl3)
         st.write(sl3)
