@@ -15,9 +15,27 @@ with tab1:
     st.markdown(link)
     with st.expander("click for more photos"):
         lists = ["https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Hp16.jpg","https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Hp17.jpg","https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Hp18.jpg"]
-        sl2= st.slider("increase image2 size",100,300)
+        sl2= st.slider("increase image11 size",100,300)
         st.image(lists, width=sl2)
         st.write(sl2)
+
+with tab2:
+    img2 = st.image("https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Dell11.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N180000")
+    st.markdown(link)
+    with st.expander("click for more photos and details"):
+        lists=["https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Dell12.jpg","https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Dell13.jpg"]
+        sl3 = st.slider("increase image2 size", 100, 300)
+        st.image(lists, width=sl3)
+        st.write(sl3)
+
+with tab3:
+    img2 = st.image("https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Lenovo11.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N180000")
+    st.markdown(link)
+    with st.expander("click for more photos and details"):
+        lists=["https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Lenovo12.jpg","https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Lenovo13.jpg"]
+        sl3 = st.slider("increase image3 size", 100, 300)
+        st.image(lists, width=sl3)
+        st.write(sl3)
 
 
 with tab5:
@@ -25,55 +43,21 @@ with tab5:
     st.markdown(link)
     with st.expander("click for more photos and details"):
         lists=["https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/acer12.jpg","https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/acer13.jpg","https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/acer14.jpg"]
-        sl3 = st.slider("increase image3 size", 100, 300)
-        st.image(lists, width=sl3)
-        st.write(sl3)
-
-
-with tab3:
-    img2 = st.image("https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Lenovo11.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N180000")
-    st.markdown(link)
-    with st.expander("click for more photos and details"):
-        lists=["https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Lenovo12.jpg","https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Lenovo13.jpg"]
-        sl3 = st.slider("increase image4 size", 100, 300)
-        st.image(lists, width=sl3)
-        st.write(sl3)
-with tab2:
-    img2 = st.image("https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Dell11.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N180000")
-    st.markdown(link)
-    with st.expander("click for more photos and details"):
-        lists=["https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Dell12.jpg","https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Dell13.jpg"]
-        sl3 = st.slider("increase image4 size", 100, 300)
-        st.image(lists, width=sl3)
-        st.write(sl3)
-
-
-with tab5:
-    img2 = st.image("acer11.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N40000")
-    st.markdown(link)
-    with st.expander("click for more photos and details"):
-        lists=["acer12.jpg","acer13.jpg","acer14.jpg"]
         sl3 = st.slider("increase image5 size", 100, 300)
         st.image(lists, width=sl3)
         st.write(sl3)
 
-with tab5:
-    img2 = st.image("acer11.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N40000")
-    st.markdown(link)
-    with st.expander("click for more photos and details"):
-        lists=["acer12.jpg","acer13.jpg","acer14.jpg"]
-        sl3 = st.slider("increase image6 size", 100, 300)
-        st.image(lists, width=sl3)
-        st.write(sl3)
+
 
 with tab6:
     img2 = st.image("https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Random mini lenovo pc 5.jpg", width=200,caption="hp probook touchscreen.keyboardlight,512ssd,8gbram,N40000")
     st.markdown(link)
     with st.expander("click for more photos and details"):
         lists=["https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Random mini lenovo pc1.jpg","https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Random mini lenovo pc 2.jpg","https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Random mini lenovo pc 3.jpg","https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Random mini lenovo pc 4.jpg","https://github.com/Abdulwahab1313/My-streamlit-web-app-for-my-laptop-business/raw/main/Random mini lenovo pc 5.jpg"]
-        sl3 = st.slider("increase image7 size", 100, 300)
+        sl3 = st.slider("increase image6 size", 100, 300)
         st.image(lists, width=sl3)
         st.write(sl3)
+
 
 
 
